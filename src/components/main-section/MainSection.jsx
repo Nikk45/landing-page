@@ -18,7 +18,7 @@ export default function MainSection() {
                 <div className='search'>
                     <BiSearch/>
                     <input type="search" placeholder="Try Java Developer, React Dev etc." />
-                    <button>Find a Developer</button>
+                    <button type='search'>Find a Developer</button>
                 </div>
             </div>
             <div className='review'>
