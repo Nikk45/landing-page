@@ -2,8 +2,10 @@
     max-width: 100%;
     height: 79%;
     padding: 1% 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
-
                     /* left section css styling */
 
 .left-section{
@@ -14,7 +16,7 @@
     gap: 6%;
     padding-top: 5%;
     max-width: 50%;
-    height: 100%;
+    height: 90%;
 }
 
 .main-heading{
@@ -97,6 +99,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: white;
     gap: 3%;
 }
 
@@ -105,4 +108,129 @@
     justify-content: flex-start;
     align-items: center;
     gap: 2%;
+}
+
+.review-count{
+    font-size: 12px;
+}
+
+.review-count span{
+     color: #A1A1AA;
+}
+
+/* right section css styling */
+
+.right-section{
+    padding-top: 5%;
+    width: 50%;
+    height: 90%;
+}
+
+.blur-background{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 30%;
+    transform: rotate(30deg);
+    background: linear-gradient(#6DDCFF,#7F60F9); */
+}
+
+.profiles{
+    position: relative;
+    /* transform: rotate(-30deg); */
+    width: 100%;
+    height: 100%;
+}
+
+/*   div for creating line between  profiles    */
+.rotated-div{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    transform: rotate(20deg);
+    background: linear-gradient(#7F60F9,#6DDCFF);
+    top: 30%;
+    left: 4%;
+}
+
+.rotated-inside-div{
+    position: absolute;
+    width: 96%;
+    height: 94%;
+    background: black;
+    top: 3%;
+}
+
+
+/*     div for creating background blur for right section    */
+
+.rotated-blur-div{
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    transform: rotate(-45deg);
+    background: linear-gradient(to right,#6DDCFF,#7F60F9);
+    filter: blur(105px);
+    top: 20%;
+    left: 4%;
+}
+
+
+.profile1{
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 75%;
+}
+
+.profile2{
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    width: 50%;
+    height: 75%;
+}
+
+.profile-name{
+    font-size: 14px;
+    width: 80%;
+}
+
+.job-role{
+    font-size: 13px;
+    color: #A1A1AA;
+    width: 80%;
+}
+
+.profile-background img{
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    height: 188px;
+    border-radius: 50%;
+    /* border: 4px solid rgb(62, 253, 14); */
+}
+
+
+.profile{
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; */
+    /* border: 4px solid rgb(213, 213, 213); */
+    padding-top: 16%;
+    width: 80%;
+    height: 50%;
+}
+
+.profile-background{
+    position: relative;
+    /* border: 4px solid rgb(241, 10, 10); */
+    width: 68%;
+    background: linear-gradient(to right,#C0E9F7,#47AB5D);
+    border-radius: 50%;
+    height: 82%;
+}
+
+#female-img{
+    background: linear-gradient(to right,#FFFA86,#CFE5FF);
 }

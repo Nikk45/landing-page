@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+https://moviepluto.fun/watch/the-good-doctor/71712/1/18
+https://www.youtube.com/watch?v=cNGjD0VG4R8
+https://www.youtube.com/watch?v=FM7MFYoylVs
+https://www.youtube.com/watch?v=gVJcjy3ejdY&list=TLPQMDYwNjIwMjUNK5xw7jEmeA&index=3
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
